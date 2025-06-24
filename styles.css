@@ -177,6 +177,14 @@ nav .hamburger i {
     color: white;
 }
 
+@media (max-width: 768px) {
+    nav .nav-links a,
+    nav .hamburger i {
+        color: #f97316;
+        /* Naranja */
+    }
+}
+
 nav.scrolled .nav-links a,
 nav.scrolled .hamburger i {
     color: #6b7280;
